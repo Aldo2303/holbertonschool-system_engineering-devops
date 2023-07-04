@@ -1,0 +1,6 @@
+https://imgur.com/a/t5nhNju
+
+#Notes:
+
+* Load balancer configuration:
+In a load balancer cluster setup, all the load balancers within the cluster are typically configured identically. They share the same configuration, including the defined backend server pool, load balancing algorithms, health checks, and other settings. This ensures consistency in how traffic is distributed and managed across the cluster.
