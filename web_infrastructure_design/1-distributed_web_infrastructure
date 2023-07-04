@@ -1,0 +1,18 @@
+https://imgur.com/a/ABL5pQU
+
+# NOTE:
+* lOAD BALANCER: it can be configurated (ACTIVE - PASSIVE) or (ACTIVE-ACTIVE).
+
+An ACTIVE-PASSIVE configuration, the primary load balancer distributes the network traffic to the most suitable server, while the second load balancer operates in listening mode to constantly monitor the performance of the primary load balancer and is ready at any time to step in and take over the load balancing duties should the primary load balancer fail.
+
+An ACTIVE-ACTIVE configuration,  two or more servers aggregate the network traffic load, and working as a team, they distribute it to the network servers.
+
+* MySQL Master/Replica:
+The master database is the primary database that handles all write operations. Any changes made to the master database, such as INSERT, UPDATE, or DELETE statements
+
+The replica databases, also known as slave databases, connect to the master database and continuously replicate the changes recorded in the binary logs. The replica databases read the binary logs and apply the recorded changes to their own copies of the data. This process allows the replica databases to stay synchronized with the master database.
+
+
+* Traffic is unencrypted:
+The information being sent can be intercepted and read by anyone who has access to the network or is able to intercept the traffic. Unencrypted traffic poses security risks because it can be vulnerable to eavesdropping, data interception, and unauthorized access.
+
